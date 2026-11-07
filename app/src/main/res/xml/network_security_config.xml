@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Plain http:// links are accepted because the app is meant to download from any
+  public direct link. TLS validation stays at the Android default: system CAs only,
+  no custom trust managers, no user-added certificates.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

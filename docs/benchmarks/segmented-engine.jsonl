@@ -1,0 +1,7 @@
+{"scenario":"per-connection-limit-2MBps","description":"Server caps each connection at 2 MB/s (typical CDN), 20 ms latency, 24 MiB","bytes":25165824,"runsMs":[5165, 5132, 5108],"medianMs":5132,"mbPerSec":4.90,"requests":17,"correct":true}
+{"scenario":"per-connection-limit-8MBps","description":"Server caps each connection at 8 MB/s, 20 ms latency, 48 MiB","bytes":50331648,"runsMs":[3724, 3652, 3636],"medianMs":3652,"mbPerSec":13.78,"requests":17,"correct":true}
+{"scenario":"shared-link-cap-10MBps","description":"The whole link is 10 MB/s whatever the connection count, 32 MiB (no gain possible)","bytes":33554432,"runsMs":[3519, 3533, 3567],"medianMs":3533,"mbPerSec":9.50,"requests":17,"correct":true}
+{"scenario":"unthrottled-loopback","description":"No limits at all, 64 MiB (pure overhead of segmenting and merging)","bytes":67108864,"runsMs":[593, 814, 560],"medianMs":593,"mbPerSec":113.08,"requests":17,"correct":true}
+{"scenario":"flaky-connections","description":"4 MB/s per connection, every request is cut after 1.5 MiB, 32 MiB","bytes":33554432,"runsMs":[9508, 9545, 9535],"medianMs":9535,"mbPerSec":3.52,"requests":33,"correct":true}
+{"scenario":"server-without-range-support","description":"Server never supports Range, 4 MB/s, 16 MiB (must not regress)","bytes":16777216,"runsMs":[4500, 4605, 4618],"medianMs":4605,"mbPerSec":3.64,"requests":1,"correct":true}
+{"scenario":"small-file","description":"1 MiB file, 20 ms latency (must not regress)","bytes":1048576,"runsMs":[315, 303, 304],"medianMs":304,"mbPerSec":3.45,"requests":1,"correct":true}

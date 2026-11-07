@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nav_youtube">YouTube</string>
+    <string name="yt_title">YouTube</string>
+    <string name="yt_subtitle">Paste a link, pick the quality, download</string>
+    <string name="yt_link_label">Video link</string>
+    <string name="yt_link_placeholder">One link, or several (one per line)</string>
+    <string name="yt_paste">Paste</string>
+    <string name="yt_check">Check link</string>
+    <string name="yt_checking">Checking…</string>
+    <string name="yt_error_link">Enter a valid link, for example https://youtu.be/…</string>
+    <string name="yt_error_fetch">Could not read this link: %1$s</string>
+    <string name="yt_kind_video">Video</string>
+    <string name="yt_kind_audio">Audio</string>
+    <string name="yt_quality">Quality</string>
+    <string name="yt_best">Best</string>
+    <string name="yt_container">File type</string>
+    <string name="yt_audio_format">Audio format</string>
+    <string name="yt_download">Download</string>
+    <string name="yt_added">Added to the queue</string>
+    <string name="yt_jobs">Downloads</string>
+    <string name="yt_jobs_empty">Nothing downloading yet</string>
+    <string name="yt_state_queued">Waiting</string>
+    <string name="yt_state_running">Downloading</string>
+    <string name="yt_state_saving">Saving to Downloads</string>
+    <string name="yt_state_done">Saved</string>
+    <string name="yt_state_done_app_folder">Saved in the app folder</string>
+    <string name="yt_state_failed">Failed</string>
+    <string name="yt_state_cancelled">Cancelled</string>
+    <string name="yt_cancel">Cancel</string>
+    <string name="yt_open">Open</string>
+    <string name="yt_remove">Remove</string>
+    <string name="yt_clear_finished">Clear finished</string>
+    <string name="yt_engine">Engine</string>
+    <string name="yt_engine_desc">yt-dlp changes often because YouTube changes. Update it when a link stops working.</string>
+    <string name="yt_update">Update yt-dlp</string>
+    <string name="yt_updating">Updating…</string>
+    <string name="yt_engine_up_to_date">yt-dlp is already up to date</string>
+    <string name="yt_engine_updated">yt-dlp was updated</string>
+    <string name="yt_engine_failed">Update failed: %1$s</string>
+    <string name="yt_keep_open">Keep the app open while downloading.</string>
+    <string name="yt_notif_channel">YouTube downloads</string>
+    <string name="yt_notif_channel_desc">Shows progress while videos are downloading</string>
+    <plurals name="yt_notif_title">
+        <item quantity="one">Downloading %d file</item>
+        <item quantity="other">Downloading %d files</item>
+    </plurals>
+    <string name="yt_notif_text">Tap to open the app</string>
+    <string name="yt_notif_cancel_all">Cancel all</string>
+    <string name="yt_added_many">Added %1$d videos to the queue</string>
+    <string name="yt_select_all">Select all</string>
+    <string name="yt_select_none">Select none</string>
+    <plurals name="yt_playlist_count">
+        <item quantity="one">%d video</item>
+        <item quantity="other">%d videos</item>
+    </plurals>
+    <string name="yt_download_selected">Download %1$d selected</string>
+    <plurals name="yt_batch_count">
+        <item quantity="one">%d link</item>
+        <item quantity="other">%d links</item>
+    </plurals>
+    <string name="yt_download_links">Download %1$d links</string>
+    <string name="yt_added_links">Added %1$d links to the queue</string>
+    <string name="yt_batch_skipped">%1$d playlist links were left out. Paste a playlist on its own.</string>
+    <string name="yt_subtitles">Subtitles</string>
+    <string name="yt_subtitles_langs">Languages (for example en, ha)</string>
+    <string name="yt_subtitles_note">Put inside the video when it has them. Works best with MP4.</string>
+    <string name="yt_cookies_title">Sign-in cookies (optional)</string>
+    <string name="yt_cookies_desc">Needed only for videos that ask you to sign in, such as age-restricted ones. Import a cookies.txt file exported while signed in to YouTube. Only YouTube and Google cookies are kept, they stay inside this app, and you can remove them here at any time. A cookies file is a login to that account: use a spare account if you can, because YouTube may limit accounts that are used with download tools.</string>
+    <string name="yt_cookies_import">Import cookies.txt</string>
+    <string name="yt_cookies_remove">Remove cookies</string>
+    <string name="yt_cookies_on">Cookies are loaded</string>
+    <string name="yt_cookies_off">No cookies loaded</string>
+    <string name="yt_cookies_imported">Cookies loaded (%1$d entries)</string>
+    <string name="yt_cookies_failed">Could not use this file: %1$s</string>
+    <string name="yt_cookies_removed">Cookies removed</string>
+</resources>

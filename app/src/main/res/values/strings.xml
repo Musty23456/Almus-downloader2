@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ALMUS YOUTUBE DOWNLOADER</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_downloads">Downloads</string>
+    <string name="nav_browser">Browser</string>
+    <string name="nav_files">Files</string>
+
+    <!-- Shared -->
+    <string name="badge_planned">Planned</string>
+    <string name="state_loading">Loading…</string>
+    <string name="state_error_title">Something went wrong</string>
+    <string name="state_retry">Try again</string>
+    <string name="percent_format">%1$d%%</string>
+    <string name="back">Back</string>
+
+    <!-- File categories -->
+    <string name="cat_videos">Videos</string>
+    <string name="cat_music">Music</string>
+    <string name="cat_documents">Documents</string>
+    <string name="cat_images">Images</string>
+    <string name="cat_apks">APKs</string>
+    <string name="cat_archives">Archives</string>
+    <string name="cat_others">Other</string>
+    <string name="cat_no_files">No files</string>
+    <plurals name="cat_file_count">
+        <item quantity="one">%1$d file</item>
+        <item quantity="other">%1$d files</item>
+    </plurals>
+
+    <!-- Home -->
+    <string name="home_title">ALMUS YOUTUBE DOWNLOADER</string>
+    <string name="home_subtitle">Your all-in-one download manager</string>
+    <string name="open_settings">Open settings</string>
+    <string name="search_label">Search downloads</string>
+    <string name="search_clear">Clear search</string>
+    <string name="add_download_title">Add a download</string>
+    <string name="url_label">Download link</string>
+    <string name="url_placeholder">https://example.com/file.zip</string>
+    <string name="url_checking">Checking link…</string>
+    <string name="start_download">Start download</string>
+    <string name="overview_title">Overview</string>
+    <string name="summary_total">Total</string>
+    <string name="summary_active">Active</string>
+    <string name="summary_completed">Completed</string>
+    <string name="summary_failed">Failed</string>
+    <string name="quick_access_title">Quick access</string>
+    <string name="recent_title">Recently downloaded</string>
+    <string name="see_all">See all</string>
+    <string name="recent_empty_title">Nothing here yet</string>
+    <string name="recent_empty_message">Files you download will show up here.</string>
+
+    <!-- Downloads -->
+    <string name="downloads_title">Downloads</string>
+    <string name="downloads_subtitle">Queue and history</string>
+    <string name="tab_all">All</string>
+    <string name="tab_active">Active</string>
+    <string name="tab_paused">Paused</string>
+    <string name="tab_completed">Completed</string>
+    <string name="tab_failed">Failed</string>
+    <string name="status_waiting">In queue</string>
+    <string name="status_queued">Starting</string>
+    <string name="status_on_hold">On hold</string>
+    <string name="status_active">Downloading</string>
+    <string name="status_paused">Waiting</string>
+    <string name="status_cancelled">Cancelled</string>
+    <string name="status_completed">Completed</string>
+    <string name="status_failed">Failed</string>
+    <string name="downloads_empty_all_title">No downloads yet</string>
+    <string name="downloads_empty_all_message">Paste a direct link on the Home screen to start your first download.</string>
+    <string name="downloads_empty_active_title">No active downloads</string>
+    <string name="downloads_empty_active_message">Downloads in progress will appear here.</string>
+    <string name="downloads_empty_paused_title">Nothing paused</string>
+    <string name="downloads_empty_paused_message">Downloads on hold, or waiting for a network connection, appear here.</string>
+    <string name="downloads_empty_completed_title">No completed downloads</string>
+    <string name="downloads_empty_completed_message">Finished downloads will appear here.</string>
+    <string name="downloads_empty_failed_title">No failed downloads</string>
+    <string name="downloads_empty_failed_message">Downloads that fail will appear here so you can retry them.</string>
+
+    <!-- Browser -->
+    <string name="browser_title">Browser</string>
+    <string name="browser_back">Go back</string>
+    <string name="browser_forward">Go forward</string>
+    <string name="browser_reload">Reload page</string>
+    <string name="browser_address_hint">Enter web address</string>
+    <string name="browser_subtitle">Web pages open inside the app</string>
+    <string name="browser_stop">Stop loading</string>
+    <string name="browser_menu">Browser menu</string>
+    <string name="browser_menu_external">Open in system browser</string>
+    <string name="browser_menu_js_on">Turn JavaScript on for this site</string>
+    <string name="browser_menu_js_off">Turn JavaScript off for this site</string>
+    <string name="browser_menu_clear">Clear browsing data</string>
+    <string name="browser_menu_privacy">Privacy notice</string>
+    <string name="browser_status_not_secure">Not secure (http)</string>
+    <string name="browser_status_secure">Secure (https)</string>
+    <string name="browser_status_js_on">JavaScript on</string>
+    <string name="browser_status_js_off">JavaScript off</string>
+    <string name="browser_checking_download">Checking the download link…</string>
+    <string name="browser_start_title">Browse the web</string>
+    <string name="browser_start_message">Type a web address above. JavaScript is off until you turn it on for a site from the menu.</string>
+    <string name="browser_start_downloads">Direct file links (a PDF, ZIP, MP3 …) are sent to the download manager after you confirm. Streaming video, DRM-protected media and files behind a login usually cannot be downloaded.</string>
+    <string name="browser_start_privacy">Websites you open here may use cookies and collect their own data about your visit.</string>
+    <string name="browser_read_privacy">Read the privacy notice</string>
+    <string name="browser_retry">Try again</string>
+    <string name="browser_privacy_title">Privacy notice</string>
+    <string name="browser_privacy_p1">Websites you open in this browser are loaded by Android\'s WebView. Each website can set cookies and use its own tools to collect data about your visit, such as your IP address, the pages you view and your device type. ALMUS YOUTUBE DOWNLOADER does not control, see or receive what a website collects.</string>
+    <string name="browser_privacy_p2">What this app does to protect you: JavaScript is off by default and can be turned on for one site at a time. Third-party cookies are refused. A certificate error always stops the page, and there is no way to continue past it. Web pages get no access to this app, to your files, location, camera or microphone.</string>
+    <string name="browser_privacy_p3">The app never reads, copies or sends your cookies or passwords. It keeps no browsing history of its own. It stores only the list of sites where you turned JavaScript on and the fact that you read this notice. The web engine itself keeps cookies and cache on the device until you choose Clear browsing data.</string>
+    <string name="browser_privacy_p4">Downloads: a file is fetched by Android\'s download manager from its link, only after you confirm. Your login cookies are not passed on, so files that need you to be signed in, and many videos, cannot be downloaded.</string>
+    <string name="browser_privacy_accept">I understand</string>
+    <string name="browser_privacy_close">Close</string>
+    <string name="browser_clear_title">Clear browsing data?</string>
+    <string name="browser_clear_message">This removes cookies, site storage, cache and the page history of this browser, resets the JavaScript permissions and signs you out of websites. Downloaded files are not touched.</string>
+    <string name="browser_clear_confirm">Clear</string>
+
+    <!-- Files -->
+    <string name="files_title">Files</string>
+    <string name="files_subtitle">Files you downloaded with this app</string>
+    <string name="files_categories_title">Categories</string>
+    <string name="files_all_title">All files</string>
+    <string name="files_empty_title">No files yet</string>
+    <string name="files_empty_message">Files you download will be listed here. Files you move or delete outside the app show up as missing.</string>
+
+
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_appearance">Appearance</string>
+    <string name="theme_dark">Dark</string>
+    <string name="theme_dark_desc">Always on in this version</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_system">Follow system</string>
+    <string name="settings_coming_soon">Coming soon</string>
+    <string name="settings_downloads">Downloads</string>
+    <string name="pref_location">Download location</string>
+    <string name="pref_location_desc">Where audio and video go inside Download/ALMUS. Files that are already saved are not moved.</string>
+    <string name="pref_layout_single">One folder</string>
+    <string name="pref_layout_by_media">Video and Audio folders</string>
+    <string name="pref_wifi_only">Download on Wi-Fi only</string>
+    <string name="pref_wifi_desc">Wait for Wi-Fi instead of using mobile data. Works with the new download engine (Android 10 or newer).</string>
+    <string name="pref_new_engine">New download engine (beta)</string>
+    <string name="pref_new_engine_desc">Real pause and resume, automatic retry, progress notifications and resume after a restart. Applies to new downloads; existing ones keep their engine.</string>
+    <string name="pref_new_engine_unsupported">Needs Android 10 or newer. This device keeps using the standard engine.</string>
+    <string name="pref_concurrent">Simultaneous downloads</string>
+    <string name="pref_concurrent_desc">How many downloads run at the same time. The rest wait in the queue.</string>
+    <string name="pref_notifications">Notifications</string>
+    <string name="pref_notifications_desc">Progress and completion alerts</string>
+    <string name="settings_about">About</string>
+    <string name="about_app">App</string>
+    <string name="about_app_value">ALMUS YOUTUBE DOWNLOADER</string>
+    <string name="about_version">Version</string>
+    <string name="about_stage">Build stage</string>
+    <string name="about_stage_value">Phase 0 · Clean base (yt-dlp engine next)</string>
+    <string name="about_description">Downloads video and audio from links with yt-dlp, and direct http and https files with its own download engine. The in-app browser opens web pages with JavaScript off by default. For personal use.</string>
+
+    <!-- Download actions and card text -->
+    <string name="action_cancel">Cancel</string>
+    <string name="action_retry">Retry</string>
+    <string name="action_remove">Remove</string>
+    <string name="action_hold">Hold</string>
+    <string name="action_resume">Resume</string>
+    <string name="action_delete_file">Delete file</string>
+    <string name="action_open">Open</string>
+    <string name="action_show_in_downloads">Show in Downloads</string>
+    <string name="unknown_size">Unknown size</string>
+    <string name="insecure_badge">Not encrypted</string>
+
+    <!-- Confirm dialog -->
+    <string name="confirm_title">Download this file?</string>
+    <string name="confirm_download">Download</string>
+    <string name="confirm_cancel">Cancel</string>
+    <string name="confirm_from">From: %1$s</string>
+    <string name="confirm_media_video">Video (%1$s)</string>
+    <string name="confirm_media_audio">Audio (%1$s)</string>
+    <string name="confirm_as_is">Saved exactly as the server sends it. Nothing is converted or re-encoded.</string>
+    <string name="confirm_can_resume">The server supports resuming an interrupted download.</string>
+    <string name="confirm_save_to">Saved in: %1$s</string>
+    <string name="confirm_redirects">The link was redirected %1$d time(s).</string>
+    <string name="confirm_size">Size: %1$s</string>
+    <string name="confirm_size_unknown">Size: unknown</string>
+    <string name="confirm_type">Type: %1$s</string>
+    <string name="confirm_type_unknown">unknown</string>
+    <string name="confirm_notification_hint">Android may ask to allow notifications so you are told when the download ends. You can decline; the download still works.</string>
+    <string name="warn_insecure">This link is not encrypted (http). Anyone on the network could read or change the file.</string>
+    <string name="warn_web_page">This link looks like a web page, not a file. You would download the page\'s HTML.</string>
+    <string name="warn_unknown_size">The server did not say how big this file is. It keeps downloading until the server stops. You can cancel at any time in Downloads.</string>
+    <string name="warn_large_file">This is a large file. Make sure you have enough storage and a good connection.</string>
+    <string name="warn_maybe_live">Audio or video without a known size can be a live or endless stream. If this is one, the download never finishes: cancel it in Downloads.</string>
+    <string name="warn_no_resume">This server says it cannot resume a download. If the connection drops, the download may start again from the beginning.</string>
+    <string name="warn_apk">APK files are never opened or installed by this app. Only install apps from sources you trust.</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Downloads</string>
+    <string name="notif_channel_description">Tells you when a download finishes or fails</string>
+    <string name="notif_completed_title">Downloaded: %1$s</string>
+    <string name="notif_completed_text">Tap to see it in ALMUS YOUTUBE DOWNLOADER.</string>
+    <string name="notif_failed_title">Download failed: %1$s</string>
+    <string name="notif_failed_text">The download did not finish.</string>
+
+    <!-- Bulk actions and confirmations -->
+    <string name="bulk_menu">Actions</string>
+    <string name="bulk_cancel_all">Cancel all</string>
+    <string name="bulk_hold_all">Hold all waiting</string>
+    <string name="bulk_resume_all">Resume all held</string>
+    <string name="bulk_retry_all">Retry all</string>
+    <string name="bulk_clear_history">Remove from list</string>
+    <string name="bulk_delete_files">Delete files</string>
+    <string name="bulk_title_cancel_all">Cancel downloads?</string>
+    <string name="bulk_title_hold_all">Hold waiting downloads?</string>
+    <string name="bulk_title_resume_all">Resume held downloads?</string>
+    <string name="bulk_title_retry_all">Retry downloads?</string>
+    <string name="bulk_title_clear_history">Remove from list?</string>
+    <string name="bulk_title_delete_files">Delete files?</string>
+    <string name="bulk_confirm_cancel_all">Cancel downloads</string>
+    <string name="bulk_confirm_delete_files">Delete</string>
+    <string name="bulk_confirm_generic">Confirm</string>
+    <plurals name="bulk_msg_cancel_all">
+        <item quantity="one">Cancel %1$d download? Data already downloaded for it is deleted.</item>
+        <item quantity="other">Cancel %1$d downloads? Data already downloaded for them is deleted.</item>
+    </plurals>
+    <plurals name="bulk_msg_hold_all">
+        <item quantity="one">Hold %1$d queued download? It will not start until you resume it. Downloads that are already running cannot be paused.</item>
+        <item quantity="other">Hold %1$d queued downloads? They will not start until you resume them. Downloads that are already running cannot be paused.</item>
+    </plurals>
+    <plurals name="bulk_msg_resume_all">
+        <item quantity="one">Put %1$d held download back in the queue?</item>
+        <item quantity="other">Put %1$d held downloads back in the queue?</item>
+    </plurals>
+    <plurals name="bulk_msg_retry_all">
+        <item quantity="one">Retry %1$d download from the beginning? It goes to the end of the queue.</item>
+        <item quantity="other">Retry %1$d downloads from the beginning? They go to the end of the queue.</item>
+    </plurals>
+    <plurals name="bulk_msg_clear_history">
+        <item quantity="one">Remove %1$d item from the list? The downloaded file stays on your device.</item>
+        <item quantity="other">Remove %1$d items from the list? The downloaded files stay on your device.</item>
+    </plurals>
+    <plurals name="bulk_msg_delete_files">
+        <item quantity="one">Permanently delete %1$d downloaded file from this device? This cannot be undone.</item>
+        <item quantity="other">Permanently delete %1$d downloaded files from this device? This cannot be undone.</item>
+    </plurals>
+
+    <!-- File manager -->
+    <string name="action_share">Share</string>
+    <string name="action_save_copy">Save a copy to…</string>
+    <string name="files_refresh">Refresh</string>
+    <string name="files_more">More actions</string>
+    <string name="files_share_chooser">Share file</string>
+    <string name="files_search_hint">Search files</string>
+    <string name="files_clear_search">Clear search</string>
+    <string name="files_all_chip">All (%1$d)</string>
+    <string name="files_category_chip">%1$s (%2$d)</string>
+    <string name="files_sort_by">Sort: %1$s</string>
+    <string name="files_sort_name">Name</string>
+    <string name="files_sort_date">Date</string>
+    <string name="files_sort_size">Size</string>
+    <string name="files_sort_type">Type</string>
+    <string name="files_sort_ascending">Ascending. Tap to reverse.</string>
+    <string name="files_sort_descending">Descending. Tap to reverse.</string>
+    <string name="files_no_matches_title">No matching files</string>
+    <string name="files_no_matches_message">Try another search or choose a different category.</string>
+    <string name="files_denied_title">Permission denied</string>
+    <string name="files_denied_message">Android did not allow this app to read your downloaded files. You can give access to the folder they are in, using the system folder picker. Only the folder you choose is shared with this app.</string>
+    <string name="files_status_missing">File missing</string>
+    <string name="files_status_no_access">No access</string>
+    <string name="files_status_error">Could not be checked</string>
+    <string name="files_status_not_in_history">Not in download history</string>
+    <string name="files_remove_from_list">Remove from list</string>
+    <string name="files_choose_folder">Choose a folder</string>
+    <string name="files_change_folder">Change folder</string>
+    <string name="files_choose_again">Choose again</string>
+    <string name="files_forget_folder">Stop using folder</string>
+    <string name="files_clear_missing">Remove missing from list</string>
+    <string name="files_folder_none_title">Files not in your history</string>
+    <string name="files_folder_none_message">Optional. Choose a folder (for example Download/ALMUS) to also see, open, share and delete files that are not in this app\'s history, for example after reinstalling. The app only gets access to the folder you choose.</string>
+    <string name="files_folder_granted_title">Folder: %1$s</string>
+    <plurals name="files_folder_count">
+        <item quantity="one">%1$d file in this folder</item>
+        <item quantity="other">%1$d files in this folder</item>
+    </plurals>
+    <string name="files_folder_problem_title">Folder not available</string>
+    <string name="files_folder_denied">The permission for this folder was removed. Choose the folder again to restore access.</string>
+    <string name="files_folder_gone">This folder no longer exists or was moved.</string>
+    <string name="files_delete_title">Delete file?</string>
+    <string name="files_delete_message">\"%1$s\" will be permanently deleted from this device. This cannot be undone.</string>
+    <string name="files_delete_message_folder">\"%1$s\" will be permanently deleted from the folder you gave access to. This cannot be undone.</string>
+    <string name="files_clear_missing_title">Remove missing files from the list?</string>
+    <plurals name="files_clear_missing_message">
+        <item quantity="one">The file of %1$d item was moved or deleted outside this app. Remove its record from the list? Nothing else is deleted.</item>
+        <item quantity="other">The files of %1$d items were moved or deleted outside this app. Remove their records from the list? Nothing else is deleted.</item>
+    </plurals>
+    <string name="detect_close">Close</string>
+    <string name="detect_check_anyway">Check as a normal link</string>
+    <string name="engine_channel_name">Active downloads</string>
+    <string name="engine_channel_description">Shows progress while ALMUS YOUTUBE DOWNLOADER is downloading</string>
+    <string name="engine_notif_pause">Pause</string>
+    <string name="engine_notif_resume">Resume</string>
+    <string name="engine_notif_cancel">Cancel</string>
+    <string name="engine_notif_summary_title">ALMUS YOUTUBE DOWNLOADER</string>
+    <string name="engine_notif_summary_idle">Getting ready</string>
+    <plurals name="engine_notif_summary_active">
+        <item quantity="one">%d download in progress</item>
+        <item quantity="other">%d downloads in progress</item>
+    </plurals>
+    <string name="engine_notif_queued">Waiting in the queue</string>
+    <string name="engine_notif_paused">Paused</string>
+    <string name="engine_notif_finishing">Saving the file</string>
+    <string name="action_pause">Pause</string>
+
+    <!-- Shared dialog for Instagram, X, Vimeo, Dailymotion, Reddit and Pinterest content (0.13.0) -->
+    <string name="pf_loading">Asking %1$s for public details…</string>
+    <string name="pf_retry">Try again</string>
+    <string name="pf_close">Close</string>
+    <string name="pf_public_confirmed">%1$s confirms this content is public</string>
+    <string name="pf_no_details_note">%1$s\'s public service returned no title or creator for this.</string>
+    <string name="pf_creator">Creator: %1$s</string>
+    <string name="pf_duration">Length: %1$s</string>
+    <string name="pf_published">Published: %1$s</string>
+    <string name="pf_size">%1$s thumbnail, %2$d × %3$d</string>
+    <string name="pf_no_thumbnail">%1$s gives no thumbnail through its public service.</string>
+    <string name="pf_source">Details from: %1$s</string>
+    <string name="pf_section_media">What this is</string>
+    <string name="pf_section_open">Open in %1$s</string>
+    <string name="pf_section_download">Downloading</string>
+    <string name="pf_alternatives">What you can do instead</string>
+    <string name="pf_show_steps">Show the steps</string>
+    <string name="pf_hide_steps">Hide the steps</string>
+    <string name="pf_app_missing">The %1$s app is not installed. Opening the page in a browser instead.</string>
+    <string name="pf_open_failed">This link could not be opened.</string>
+    <string name="pf_offer_button">Download: %1$s</string>
+    <string name="pf_offer_by">Offered by: %1$s</string>
+
+    <!-- Advanced media selection (0.14.0) -->
+    <string name="ms_title">Choose what to download</string>
+    <string name="ms_close">Close</string>
+    <string name="ms_back">Back</string>
+    <string name="ms_cancel">Cancel</string>
+    <string name="ms_resolving">Asking the source which formats it offers…</string>
+    <string name="ms_verifying">Checking the file you chose…</string>
+    <string name="ms_untitled">Media file</string>
+    <string name="ms_duration_unknown">Length not stated</string>
+    <string name="ms_option_count">%1$d formats</string>
+    <string name="ms_mode_video">Video</string>
+    <string name="ms_mode_audio">Audio only</string>
+    <string name="ms_quality">Video quality</string>
+    <string name="ms_audio">Audio</string>
+    <string name="ms_resolution_unknown">The source does not state this file\'s resolution.</string>
+    <string name="ms_details_show">Show format details</string>
+    <string name="ms_details_hide">Hide format details</string>
+    <string name="ms_save_to">Save to</string>
+    <string name="ms_folder_note">Choosing a folder for each download needs the new download engine (Settings). Until then files go where Settings say.</string>
+    <string name="ms_review">Review download</string>
+    <string name="ms_review_title">Confirm download</string>
+    <string name="ms_download">Download</string>
+    <string name="ms_row_type">Type</string>
+    <string name="ms_row_quality">Quality</string>
+    <string name="ms_row_format">Format</string>
+    <string name="ms_row_duration">Length</string>
+    <string name="ms_row_size">Size</string>
+    <string name="ms_row_file">File name</string>
+    <string name="ms_row_source">Source</string>
+    <string name="ms_row_saved_in">Saved in</string>
+    <string name="ms_notification_hint">Android will ask to allow notifications so you can see when the download finishes. You can decline and the download still works.</string>
+    <string name="ms_nothing_saved">Nothing is saved until you tap Download.</string>
+</resources>
